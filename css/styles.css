@@ -1,0 +1,42 @@
+body {
+    font-family: arial;
+}
+
+h2 {
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ol.cars {
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-type: inherit;
+    list-style-type: none;
+    list-style-type: lower-alpha;
+}
+
+ul {
+    list-style-image: url(../img/pumpkin.png);
+}
+
+ol#meals {
+    background-color: darkred;
+    list-style-position: inside;
+}
+
+ol#meals li {
+    background-color: lightblue;
+}
+
+dl {
+    font-size: 20px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd, dt {
+    line-height: 1.5;
+}
